@@ -41,7 +41,7 @@ class LoanPrediction(BaseModel):
 
 @app.get("/")
 def index():
-    return {"message": "Welcome to the loan prediction app using jenkins: Demo Version 1.4"}
+    return {"message": "Welcome to the loan prediction app using jenkins: Demo Version 1.5"}
 
 
 @app.post("/predict_api")
